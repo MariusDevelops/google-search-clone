@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-// import { Search } from "./Search";
+import { Search } from "./Search";
 
 export const Navbar = ({ setDarkTheme, darkTheme }) => (
   <div className="p-5 pb-0 flex flex-wrap sm:justify-between justify-center items-center border-b dark:border-gray-700 border-gray-200 ">
@@ -19,6 +19,6 @@ export const Navbar = ({ setDarkTheme, darkTheme }) => (
         {darkTheme ? "💡 Light" : "🌙 Dark"}
       </button>
     </div>
-    {/* <Search /> */}
+    <Search />
   </div>
 );
